@@ -162,6 +162,26 @@ footer{
 
 }
 
+@media(max-width: 800px){
+    .produtos{
+        flex-direction: column;
+    }
+
+    .imagens{
+        flex-direction: column;
+    }
+
+    .baixo{
+        flex-direction: column;}
+    
+    nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+}
+
 
 
 
